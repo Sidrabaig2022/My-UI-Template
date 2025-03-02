@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SaaS Landing Page</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="assets/images/logo.png" alt="Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Get Started</a>
+        </nav>
+
+        <section class="hero" data-aos="fade-up">
+            <div class="hero-content">
+                <h1 data-aos="fade-right">Grow Your Business with AI</h1>
+                <p data-aos="fade-left">Our AI-powered SaaS helps you automate workflows and increase revenue.</p>
+                <a href="#" class="btn-primary" data-aos="zoom-in">Start Free Trial</a>
+            </div>
+            <img src="assets/images/hero-image.png" alt="Product Screenshot" data-aos="fade-left">
+        </section>
+    </header>
+
+    <section class="features">
+        <h2 data-aos="fade-up">Powerful Features for Your Business</h2>
+        <div class="features-grid">
+            <div class="feature" data-aos="flip-left">
+                <img src="assets/images/speed-icon.png" alt="Speed">
+                <h3>Lightning Fast</h3>
+                <p>Experience ultra-fast performance with our cloud-based solution.</p>
+            </div>
+            <div class="feature" data-aos="flip-up">
+                <img src="assets/images/security-icon.png" alt="Security">
+                <h3>Top Security</h3>
+                <p>We use advanced encryption to keep your data safe.</p>
+            </div>
+            <div class="feature" data-aos="flip-right">
+                <img src="assets/images/automation-icon.png" alt="Automation">
+                <h3>AI Automation</h3>
+                <p>Let AI handle repetitive tasks and boost productivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-grid">
+            <div class="plan">
+                <h3>Basic</h3>
+                <p>$9.99/month</p>
+                <ul>
+                    <li>✔ 10 Projects</li>
+                    <li>✔ 5 Team Members</li>
+                    <li>✔ Email Support</li>
+                </ul>
+                <a href="#" class="btn-primary">Get Started</a>
+            </div>
+
+            <div class="plan featured">
+                <h3>Pro</h3>
+                <p>$29.99/month</p>
+                <ul>
+                    <li>✔ Unlimited Projects</li>
+                    <li>✔ 24/7 Support</li>
+                    <li>✔ Advanced Analytics</li>
+                </ul>
+                <a href="#" class="btn-primary">Start Free Trial</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <img src="assets/images/user1.jpg" alt="User 1">
+            <p>"This SaaS product transformed my workflow!"</p>
+            <h4>— Jane Doe</h4>
+        </div>
+        <div class="testimonial">
+            <img src="assets/images/user2.jpg" alt="User 2">
+            <p>"Absolutely amazing! It saves me hours of work every day."</p>
+            <h4>— John Smith</h4>
+        </div>
+        <div class="testimonial">
+            <img src="assets/images/user3.jpg" alt="User 3">
+            <p>"A must-have for any business looking to scale efficiently!"</p>
+            <h4>— Emily Johnson</h4>
+        </div>
+    </section>
+    
+
+    <!-- AOS & GSAP Scripts (Placed before </body> for better performance) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
